@@ -11,7 +11,7 @@ I have used argparse and scapy to make this basic network scanner.
 
 [Syntax : python <file_name> -ip <ip_address>/<subnet>]
 
-[NOTE : Use it with root/administrative priviledges]
+[Use it with root/administrative priviledges]
 
 
 One needs to have argparse and scapy installed.
@@ -44,6 +44,6 @@ Call it from the command line using root/admin privileges
 
 [Syntax : python <file_name> <ip_address>/<subnet>]
 
-[Note : Put the ip address of your default gateway(router) to get all the client's ip address.] 
+[Put the ip address of your default gateway(router) to get all the client's ip address.] 
 Scapy can be installed with :
 pip install scapy
