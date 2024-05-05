@@ -37,3 +37,13 @@ OUTPUT :
 
 
 2. Sniff_Tool2.py
+
+I have used sys and scapy to build this basic network scanner.
+
+Call it from the command line using root/admin privileges
+
+[Syntax : python <file_name> <ip_address>/<subnet>]
+
+[Note : Put the ip address of your default gateway(router) to get all the client's ip address.] 
+Scapy can be installed with :
+pip install scapy
